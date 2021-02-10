@@ -1,0 +1,172 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ body{
+ 	font-family: 'Epilogue', sans-serif;
+ }
+ .hero-bg{
+ 	background:url(https://res.cloudinary.com/aseed/image/upload/v1612195071/bd_hero_image_z125ym.png)no-repeat;
+ 	background-size: cover;
+ 	background-position: center;
+ }
+ .hero-titre{
+ 	font-weight: bold;
+ 	font-size: 55px;
+ }
+  .text-bold{
+ 	font-weight: bold;
+ }
+   .m-left-big{
+  margin-left:8%;
+ }
+  .m-left-xbig{
+  margin-left:20%;
+ }
+ .m-top-xbig{
+ 	margin-top:20%;
+ }
+  .m-bottom-mini{
+ 	margin-bottom: 2.5%;
+ }
+ .m-left-mini{
+ 	margin-left: 2.5%;
+ }
+  .m-right-mini{
+ 	margin-right: 2.5%;
+ }
+  .m-top-mini{
+ 	margin-top: 2.5%;
+ }
+   .m-bottom{
+ 	margin-bottom: 5%;
+ }
+  .m-left{
+ 	margin-left: 5%;
+ }
+   .m-right{
+ 	margin-right: 5%;
+ }
+   .m-top{
+ 	margin-top: 5%;
+ }
+   .m-bottom-md{
+ 	margin-bottom: 10%;
+ }
+  .m-left-md{
+ 	margin-left: 10%;
+ }
+   .m-right-md{
+ 	margin-right: 10%;
+ }
+   .m-top-md{
+ 	margin-top: 10%;
+ }
+ .img-card{
+ 	width: 30%;
+ 	margin-left: 25%;
+ }
+.card{
+  border:none;
+}
+
+/*------mqs----------*/
+@media (min-width: 360px) {
+  .nav-item{
+    font-size:10px;
+  }
+
+  .hero-titre{
+  font-weight: bold;
+  font-size: 36px;
+ }
+
+  .description{
+  font-size: 16px;
+ }
+
+   .m-left-big{
+  margin-left:5%;
+ }
+  .m-left-xbig{
+  margin-left:20%;
+ }
+ .m-top-xbig{
+  margin-top:10%;
+ }
+  .m-bottom-mini{
+  margin-bottom: 2.5%;
+ }
+ .m-left-mini{
+  margin-left: 2.5%;
+ }
+  .m-right-mini{
+  margin-right: 2.5%;
+ }
+  .m-top-mini{
+  margin-top: 2.5%;
+ }
+   .m-bottom{
+  margin-bottom: 5%;
+ }
+  .m-left{
+  margin-left: 5%;
+ }
+   .m-right{
+  margin-right: 5%;
+ }
+   .m-top{
+  margin-top: 5%;
+ }
+   .m-bottom-md{
+  margin-bottom: 10%;
+ }
+  .m-left-md{
+  margin-left: 10%;
+ }
+   .m-right-md{
+  margin-right: 10%;
+ }
+   .m-top-md{
+  margin-top: 10%;
+ }
+}
+
+@media (min-width: 576px) {
+  .card-columns{
+    column-count: 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-columns{
+    column-count: 3;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-columns{
+    column-count: 3;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-columns{
+    column-count: 3;
+  }
+}
+
+
+
+/*------mqs fin----------*/
